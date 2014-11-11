@@ -22,5 +22,7 @@ Example
 ```javascript
 node --harmony cli.js -s kuesty.com -404 kuesty.com/error/e404
 ```
+
 Result
+
 <img src="https://raw.githubusercontent.com/Urucas/broken-links/master/screen.png" />
