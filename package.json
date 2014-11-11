@@ -1,0 +1,30 @@
+{
+  "name": "broken-links",
+  "version": "0.0.0",
+  "description": "broken-links ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vrunoa/broken-links.git"
+  },
+  "author": "Urucas <hello@urucas.com> (http://urucas.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrunoa/broken-links/issues"
+  },
+  "homepage": "https://github.com/vrunoa/broken-links",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "is-up": "^1.0.1",
+    "md5": "^1.0.0",
+    "request": "^2.47.0",
+    "q": "~1.0.1",
+    "monocle-js": "~1.0.0",
+    "monocle-request": "0.0.4",
+    "monocle-fs": "0.0.6",
+    "xmldom": "~0.1.19"
+  }
+}
