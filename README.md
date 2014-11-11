@@ -1,7 +1,7 @@
 broken-links
 ============
 Simple node package to test broken links on your page.
-The library compares your links on your page with the 404 provided.
+The command compares the links on your page with the 404 provided.
 
 Requirements
 ============
