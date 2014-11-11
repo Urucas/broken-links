@@ -17,14 +17,10 @@
   },
   "homepage": "https://github.com/vrunoa/broken-links",
   "dependencies": {
-    "colors": "^1.0.3",
-    "is-up": "^1.0.1",
-    "md5": "^1.0.0",
-    "request": "^2.47.0",
-    "q": "~1.0.1",
-    "monocle-js": "~1.0.0",
-    "monocle-request": "0.0.4",
-    "monocle-fs": "0.0.6",
-    "xmldom": "~0.1.19"
+    "colors": "~1.0.3",
+    "md5": "~1.0.0",
+    "co-request": "~0.2.0",
+    "co": "~3.1.0",
+    "is-up": "~1.0.1"
   }
 }
