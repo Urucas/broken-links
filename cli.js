@@ -10,7 +10,7 @@ if(process.version < "v0.11.7"){
 var argv = process.argv.slice(2);
 
 var spawn = require('child_process').spawn;
-var args = ["--harmony", "index.js"]; 
+var args = ["--harmony", __dirname+"/index.js"]; 
 		for(var i=0;i<argv.length;i++) {
 			args.push(argv[i]);
 		}

@@ -1,6 +1,6 @@
 {
   "name": "broken-links",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "description": "Simple node library to search for broken links on your page. The command compares the links on your page with the 404 provided",
   "main": "index.js",
   "scripts": {
