@@ -1,26 +1,42 @@
 {
   "name": "broken-links",
   "version": "0.0.0",
-  "description": "broken-links ============",
+  "description": "Simple node library to search for broken links on your page. The command compares the links on your page with the 404 provided",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+	"keywords": [
+    "url, test, links, error, 404"
+  ],
+	"preferGlobal" : true, 
+	"bin": {
+    "broken-links": "cli.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vrunoa/broken-links.git"
+    "url": "https://github.com/Urucas/broken-links.git"
   },
-  "author": "Urucas <hello@urucas.com> (http://urucas.com/)",
-  "license": "MIT",
+	"engines": {
+    "node": ">=0.11.7"
+  },
+ 	"author": {
+		"name" : "Urucas",
+		"email" : "hello@urucas.com",
+		"url" : "http://urucas.com"
+	},
+	"files": [
+    "index.js",
+    "cli.js"
+  ],
+	"license": "MIT",
   "bugs": {
-    "url": "https://github.com/vrunoa/broken-links/issues"
+    "url": "https://github.com/Urucas/broken-links/issues"
   },
-  "homepage": "https://github.com/vrunoa/broken-links",
+  "homepage": "https://github.com/Urucas/broken-links",
   "dependencies": {
     "colors": "~1.0.3",
-    "md5": "~1.0.0",
     "co-request": "~0.2.0",
-    "co": "~3.1.0",
-    "is-up": "~1.0.1"
+    "co": "~3.1.0"
   }
 }
