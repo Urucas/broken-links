@@ -65,7 +65,6 @@ co(function* () {
 		
 		links[a] = relative_uri + a;
 		var result = yield request(links[a]);
-		console.log(result.statusCode);
 		if(result.statusCode == 404) {
 			console.log("|_ "+links[a].yellow + " -> BROKEN".red);	
 			continue;
